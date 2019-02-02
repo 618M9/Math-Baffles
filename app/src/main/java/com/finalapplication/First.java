@@ -729,6 +729,7 @@ public class First extends AppCompatActivity {
                     }
                     editor.putInt("2", score);
 
+
                     editor.putBoolean("7", true);
 
                     final Runnable mrunnable = new Runnable() {
