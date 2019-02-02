@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image6"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".Level">
+
+    <Button
+        android:layout_marginLeft="5dp"
+        android:layout_width="240dp"
+        android:id="@+id/first_button"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn"
+        android:text="Easy"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-medium"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:layout_centerHorizontal="false"
+        android:layout_marginBottom="20dp"
+        />
+    <Button
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="240dp"
+        android:id="@+id/second_button"
+        android:layout_below="@+id/first_button"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn"
+        android:text=" Medium"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif-medium"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:layout_centerHorizontal="false"
+        android:layout_marginBottom="20dp"
+        />
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+
+        android:layout_width="240dp"
+        android:id="@+id/third_button"
+        android:layout_below="@+id/second_button"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:background="@drawable/btn"
+
+        android:text="       Hard"
+        android:textSize="20dp"
+
+
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif-medium"
+        android:paddingLeft="60dp"
+        android:paddingRight="94dp"
+        android:layout_centerHorizontal="false"
+        />
+
+
+</RelativeLayout>

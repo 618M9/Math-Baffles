@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#2db99d"
+    android:weightSum="10"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="4"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1.7"
+            android:layout_marginTop="4dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sadText"
+            android:textColor="#ffffff"
+            android:textStyle="normal"
+            android:textSize="20sp"
+            android:text="Your score is :"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_marginTop="4dp"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:layout_weight=".5"
+            android:id="@+id/scoreText"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+
+            android:layout_weight="1"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:id="@+id/exit"
+                android:text="Do you want to exit?"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="4dp"
+        android:weightSum="2">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="No"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:id="@+id/noButton"
+            android:textColor="#ff0900"
+            android:textStyle="italic"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Yes"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:id="@+id/yesButton"
+            android:textStyle="italic"
+            android:textColor="#ff0900"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    </LinearLayout>
+
+
